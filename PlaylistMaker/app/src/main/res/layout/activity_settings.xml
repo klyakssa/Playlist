@@ -35,11 +35,11 @@
                 android:layout_height="match_parent"
                 android:layout_weight="7"
                 android:text="Настройки"
-                android:textColor="#1A1B22"
+                android:textColor="@color/YP_black"
                 android:textStyle="bold"
                 android:gravity="center_vertical"
                 android:paddingLeft="12dp"
-                android:textSize="22sp" />
+                android:textSize="@dimen/title" />
 
         </LinearLayout>
 
@@ -58,11 +58,11 @@
             android:layout_height="match_parent"
             android:layout_weight="15"
             android:text="Темная тема"
-            android:textColor="#1A1B22"
+            android:textColor="@color/black"
             android:layout_marginStart="16dp"
             android:layout_marginTop="21dp"
             android:layout_marginBottom="21dp"
-            android:textSize="16sp"
+            android:textSize="@dimen/ys_regular"
             android:gravity="top" />
 
         <Switch
@@ -72,6 +72,7 @@
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/YP_text_gray"
             android:layout_marginEnd="4dp"
             tools:ignore="UseSwitchCompatOrMaterialXml" />
 
@@ -93,19 +94,15 @@
             android:layout_height="match_parent"
             android:layout_weight="32"
             android:text="Поделиться приложением"
-            app:icon="@drawable/ic_share"
-            app:iconTint="#000000"
-            app:iconGravity="textEnd"
-            android:textColor="#1A1B22"
-            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/ys_regular"
             android:gravity="top" />
 
         <TextView
-            android:id="@+id/switch2"
             android:layout_width="0dp"
             android:layout_weight="2"
             android:layout_height="match_parent"
-            android:backgroundTint="#AEAFB4"
+            android:backgroundTint="@color/YP_text_gray"
             android:drawableLeft="@drawable/ic_share"
             />
 
@@ -126,15 +123,15 @@
             android:layout_height="match_parent"
             android:layout_weight="32"
             android:text="Написать в поддержку"
-            android:textColor="#1A1B22"
-            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/ys_regular"
             android:gravity="top" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_weight="2"
             android:layout_height="match_parent"
-            android:backgroundTint="#AEAFB4"
+            android:backgroundTint="@color/YP_text_gray"
             android:drawableLeft="@drawable/ic_group"
             />
 
@@ -155,15 +152,15 @@
             android:layout_height="match_parent"
             android:layout_weight="32"
             android:text="Пользовательское соглашение"
-            android:textColor="#1A1B22"
-            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/ys_regular"
             android:gravity="top" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_weight="2"
             android:layout_height="match_parent"
-            android:backgroundTint="#AEAFB4"
+            android:backgroundTint="@color/YP_text_gray"
             android:drawableLeft="@drawable/ic_arrow_forward"
             />
 
